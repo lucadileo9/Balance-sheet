@@ -1,0 +1,147 @@
+TEST BASE
+	Aggiungi entrata v v
+	Aggiungi uscita	v v
+	Modifica	NON MODIFICA LE USCITE risolto v
+	Rimuovi V Modificato, permettendo di rimuovere più voci V
+	Cerca voce V V
+	Prossimo V V
+	Esporta txt V V
+	Esporta csv V V
+	Salva V V
+	CHIUDI
+	Carica V V
+	Aggiungi entrata V V
+	Aggiungi uscita V V
+	Modifica V V
+	Rimuovi V V
+	Cerca voce V V
+	Prossimo V V
+TEST VISUALIZZA ANNO
+	Aggiungi entrata V V
+	Aggiungi uscita V V
+	Modifica V V
+	Rimuovi V V
+	Cerca voce  V V
+	Prossimo V V
+	Esporta txt V V
+	Esporta csv V V
+	Salva V V
+	CHIUDI
+	Carica V V
+	Aggiungi entrata V V
+	Aggiungi uscita V V
+	Modifica V V
+	Rimuovi V V
+	Cerca voce V V
+	Prossimo V V
+TEST VISUALIZZA MESE	
+	Aggiungi entrata V V
+	Aggiungi uscita V V
+	Modifica V V
+	Rimuovi V V
+	Cerca voce V V
+	Prossimo V V
+	Esporta txt V V
+	Esporta csv V V
+	Salva V V
+	CHIUDI
+	Carica V V
+	Aggiungi entrata V V
+	Aggiungi uscita V V
+	Modifica V V
+	Rimuovi V V
+	Cerca voce V V
+	Prossimo V V
+TEST VISUALIZZA SETTIMANA
+	Aggiungi entrata V V
+	Aggiungi uscita V V
+	Modifica V V
+	Rimuovi V V
+	Cerca voce V V
+	Prossimo V V
+	Esporta txt V V
+	Esporta csv V V
+	Salva V V
+	CHIUDI
+	Carica V V
+	Aggiungi entrata V V
+	Aggiungi uscita V V
+	Modifica V V
+	Rimuovi V V
+	Cerca voce V V
+	Prossimo V V
+TEST VISUALIZZA GIORNO
+	Aggiungi entrata V V
+	Aggiungi uscita V V
+	Modifica V V
+	Rimuovi V V
+	Cerca voce V V
+	Prossimo V V
+	Esporta txt V V
+	Esporta csv V V
+	Salva V V
+	Carica V V
+	CHIUDI
+	Aggiungi entrata V V
+	Aggiungi uscita V V
+	Modifica V V
+	Rimuovi V V
+	Cerca voce V V
+	Prossimo V V
+TEST VISUALIZZA PERIODO
+	Aggiungi entrata V V
+	Aggiungi uscita V V
+	Modifica V V
+	Rimuovi V  V
+	Cerca voce V V
+	Prossimo V V
+	Esporta txt V V
+	Esporta csv V V
+	Salva V V
+	Carica V V
+	CHIUDI 
+	Aggiungi entrata V V
+	Aggiungi uscita V V
+	Modifica V V
+	Rimuovi V V
+	Cerca voce V V
+	Prossimo V V
+TEST IMMETTENDO ERRORI
+	Rappresentazione bilancio vuoto  V
+			Mostra la tabella vuota, con totale -1, è possibile aggiungere altre voci senza problemi 
+
+	Errore nella modifica della data V V
+	Errore nella modifica della descrizione(Stringa vuota) V V
+	Errore nella modifica dell'ammontare V V
+	
+	Errore nell'aggiunta di un'uscita, data errata V V
+	Errore nell'aggiunta di un'uscita, ammontare errata  ERRORE 
+			se non viene dato ammontare, RISOLTO, controllando anche che l'ammontare dato non sia una stringa vuota  V 
+	Errore nell'aggiunta di un'uscita, ammontare non numerico V V
+	Errore nell'aggiunta di un'uscita, nessuna descrizione V  V
+			Inserisce una descrizione vuota
+	
+	Errore nell'aggiunta di un'entrata, data errata V   V
+	Errore nell'aggiunta di un'entrata, ammontare errata V V
+	Errore nell'aggiunta di un'entrata, ammontare non numerico V V
+	Errore nell'aggiunta di un'entrata, nessuna descrizione V V
+	
+	Ricerca elemento non presente V  V
+	Ricerca vuota V V
+	
+	Errore nella visualizzaione anno, formato data errato V V
+	Errore nella visualizzaione mese, formato data errato V V
+	Errore nella visualizzaione settimana, formato data errato V V
+ 	Errore nella visualizzaione giorno, formato data errato V V
+	Errore nella visualizzaione periodo, formato data errato (Prima data) V V
+	Errore nella visualizzaione periodo, formato data errato (Seconda data) V V
+	
+	Salva in un file non esistente V V
+	Salva in un file esistente, e sovraccaricare V V
+	Salva in un file esistente, e non sovraccaricare V V
+	
+	Caricare da un file esistente V V
+	Caricare da un file non esistente V
+	
+	Esportare usando un file esistente V
+			non fa niente, semplicemente sovraccarica

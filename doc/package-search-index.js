@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"grafica"},{"l":"pannelli"},{"l":"pannelli.aggiungi"},{"l":"pannelli.altro"},{"l":"pannelli.visualizza"},{"l":"salvataggi"},{"l":"strutture"}];updateSearchResults();
